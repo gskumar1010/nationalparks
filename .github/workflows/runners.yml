@@ -35,7 +35,7 @@ jobs:
       - uses: actions/checkout@v2                         # Checkout a java project to build
         with:
           repository: redhat-actions/quarkus-quickstarts
-      # test
+      # testing new permission
       # https://github.com/redhat-actions/quarkus-quickstarts/tree/master/getting-started#readme
 
       - name: Install and build
